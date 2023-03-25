@@ -8,3 +8,6 @@
     branch = false
     diff = false
     log = false
+[user]
+	email = aburkhalter512@gmail.com
+	name = Adam Burkhalter
