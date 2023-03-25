@@ -1,0 +1,39 @@
+{
+    "name": "Codedark",
+    "groups": {
+        "information:additional":     { "fg": "nightfox:fg3", "bg": "nightfox:bg2", "attrs": [] },
+        "information:regular":        { "fg": "nightfox:magenta:base", "bg": "nightfox:bg0", "attrs": [] },
+        "information:highlighted":    { "fg": "nightfox:magenta:base", "bg": "nightfox:bg0", "attrs": [] },
+        "information:priority":       { "fg": "nightfox:black:base", "bg": "nightfox:cyan:base", "attrs": ["bold"] },
+
+        "critical:failure":           { "fg": "nightfox:fg1", "bg": "nightfox:red:base", "attrs": []},
+        "critical:success":           { "fg": "nightfox:fg1", "bg": "nightfox:green:base", "attrs": []},
+
+        "warning:regular":            { "fg": "nightfox:orange:base", "bg": "nightfox:bg1", "attrs": [] },
+
+        "background":                 { "fg": "nightfox:fg2", "bg": "nightfox:bg1", "attrs": [] },
+        "background:divider":         { "fg": "nightfox:fg1", "bg": "nightfox:bg1", "attrs": [] },
+
+        "hostname":                   "information:priority",
+        "user":                       "information:priority",
+        "virtualenv":                 { "fg": "nightfox:fg1", "bg": "nightfox:bg1", "attrs": [] },
+
+        "branch":                     { "fg": "nightfox:black:base", "bg": "nightfox:green:base", "attrs": [] },
+        "branch_dirty":               { "fg": "nightfox:black:base", "bg": "nightfox:yellow:base", "attrs": [] },
+        "branch_clean":               { "fg": "nightfox:black:base", "bg": "nightfox:green:base", "attrs": [] },
+
+        "cwd":                        "information:regular",
+        "cwd:current_folder":         "information:highlighted",
+        "cwd:divider":                "information:regular",
+
+        "attached_clients":           { "fg": "nightfox:fg2", "bg": "nightfox:green:base", "attrs": [] },
+        "date":                       { "fg": "nightfox:black:base", "bg": "nightfox:cyan:base", "attrs": ["bold"] },
+        "time":                       { "fg": "nightfox:black:base", "bg": "nightfox:cyan:base", "attrs": ["bold"] },
+        "time:divider":               { "fg": "nightfox:black:base", "bg": "nightfox:cyan:base", "attrs": [] },
+
+        "system_load_gradient":       { "fg": "green_yellow_orange_red", "bg": "solarized:base03", "attrs": [] },
+        "system_load_good":           { "fg": "nightfox:fg1", "bg": "nightfox:blue:base", "attrs": [] },
+        "system_load_bad":            { "fg": "nightfox:bg1", "bg": "nightfox:yellow:base", "attrs": [] },
+        "system_load_ugly":           { "fg": "nightfox:fg1", "bg": "nightfox:red:base", "attrs": [] }
+    }
+}

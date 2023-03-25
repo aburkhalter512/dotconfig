@@ -1,0 +1,10 @@
+plugins=(
+    aws
+    git
+    nvm
+    ripgrep
+    rust
+    safe-paste
+    tmux 
+    vscode
+)
