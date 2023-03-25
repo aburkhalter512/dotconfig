@@ -1,0 +1,19 @@
+{
+    "common": {
+        "term_truecolor": true
+    },
+    "ext": {
+        "shell": {
+            "colorscheme": "nightfox",
+            "theme": "basic_with_vcs",
+            "local_themes": {
+                "continuation": "continuation",
+                "select": "select"
+            }
+        },
+        "tmux": {
+            "colorscheme": "nightfox",
+            "theme": "basic_with_datetime"
+        }
+    }
+}

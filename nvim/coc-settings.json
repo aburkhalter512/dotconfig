@@ -1,0 +1,24 @@
+{
+    "tsserver.disableAutomaticTypeAcquisition": false,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.checkOnSave.extraArgs": ["--fix", "--allow-dirty", "--allow-staged"],
+    "rust-analyzer.diagnostics.disabled": [ "inactive-code" ],
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": true,
+    "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": false,
+    "rust-analyzer.procMacro.enable": true,
+    "rust-analyzer.procMacro.attributes.enable": true,
+    "languageserver": {
+        "clojure-lsp": {
+            "command": "bash",
+            "args": ["-c", "clojure-lsp"],
+            "filetypes": ["clojure"],
+            "rootPatterns": ["project.clj"],
+            "additionalSchemes": ["jar", "zipfile"],
+            "trace.server": "verbose",
+            "initializationOptions": {
+            }
+        }
+    }
+}

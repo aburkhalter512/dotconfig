@@ -1,0 +1,22 @@
+#!/usr/local/bin/zsh
+
+# Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Alacritty
+brew install alacritty
+
+# Tmux
+brew install tmux
+
+# NeoVim
+brew install neovim
+
+# Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# hostctl
+brew install guumaster/tap/hostctl

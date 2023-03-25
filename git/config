@@ -1,0 +1,10 @@
+[core]
+	editor = nvim
+[log]
+    date = iso
+[format]
+    pretty = format:%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s
+[pager]
+    branch = false
+    diff = false
+    log = false
