@@ -1,11 +1,18 @@
-#!/usr/local/bin/zsh
+#!/usr/bin/env zsh
 
 ################################################################################
 # oh-my-zsh
 #
 
+export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM="$ZSH/custom"
+
+ZSH_THEME="spaceship"
+zstyle ':omz:update' mode auto      # update automatically without asking
+
 source ~/.config/oh-my-zsh/plugins.sh
 source ~/.config/oh-my-zsh/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -84,3 +91,4 @@ git-purge-tags () {
 # aws
 #
 alias aws-login="yawsso auto --this --profile"
+
