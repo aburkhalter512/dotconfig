@@ -7,7 +7,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_CUSTOM="$ZSH/custom"
 
-ZSH_THEME="spaceship"
+ZSH_THEME="agnoster" # TODO figure out how to get spaceship to work on wsl ubuntu
 zstyle ':omz:update' mode auto      # update automatically without asking
 
 source ~/.config/oh-my-zsh/plugins.sh
