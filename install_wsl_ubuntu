@@ -20,6 +20,12 @@ wget -O "$TEMP_DEB" 'https://github.com/guumaster/hostctl/releases/download/v1.1
 sudo dpkg -i "$TEMP_DEB"
 rm -f "$TEMP_DEB"
 
+# rg
+sudo apt-get install ripgrep -y
+
+# jq
+sudo apt-get install jg -y
+
 # install common linux settings
 self_dir=${0:a}
 $self_dir/install_linux_common
