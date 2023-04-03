@@ -7,6 +7,7 @@
     "rust-analyzer.inlayHints.lifetimeElisionHints.enable": true,
     "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
     "rust-analyzer.inlayHints.closureReturnTypeHints.enable": false,
+    "rust-analyzer.inlayHints.reborrowHints.enable": true,
     "rust-analyzer.procMacro.enable": true,
     "rust-analyzer.procMacro.attributes.enable": true,
     "languageserver": {
