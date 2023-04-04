@@ -15,7 +15,9 @@ brew install neovim
 # hostctl
 brew install guumaster/tap/hostctl
 
+# terraform-ls (terraform language server)
+brew install hashicorp/tap/terraform-ls
+
 # install common linux settings
-self_dir=${0:a}
-$self_dir/install_linux_common
+$HOME/.config/install_linux_common
 

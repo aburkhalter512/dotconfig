@@ -2,3 +2,4 @@ coc/
 nvim/swap/
 .DS_Store
 tmux/plugins/
+memos.json
