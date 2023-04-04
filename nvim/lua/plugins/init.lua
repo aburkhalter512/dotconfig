@@ -14,6 +14,7 @@ Plug 'nanozuki/tabby.nvim'
 Plug 'airblade/vim-gitgutter'
 -- Plug 'preservim/nerdtree'
 Plug 'nvim-tree/nvim-tree.lua'
+Plug('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 
 -- Code Search
