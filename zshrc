@@ -92,3 +92,15 @@ git-purge-tags () {
 #
 alias aws-login="yawsso auto --this --profile"
 
+################################################################################
+# tmux
+#
+function tmux-start() {
+    tmux has-session
+    if [ $? -eq 0 ]; then # Does an existing session exist?
+        tmux attach
+    else
+        tmux -f ~/.config/tmux/tmux.conf
+    fi
+}
+
