@@ -1,7 +1,11 @@
-#!/usr/local/bin/zsh
+#!/usr/bin/env zsh
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Homebrew: Add homebrew to PATH
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/adamburkhalter/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Alacritty
 brew install alacritty
@@ -15,7 +19,11 @@ brew install neovim
 # hostctl
 brew install guumaster/tap/hostctl
 
+# Nerd Fonts
+brew tap homebrew/cask-fonts
+brew install font-hack-nerd-font
+
 # install common linux settings
-self_dir=${0:a}
+self_dir=${0:a:h}
 $self_dir/install_linux_common
 

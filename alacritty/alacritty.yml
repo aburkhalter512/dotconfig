@@ -32,7 +32,8 @@ env:
   TERM: screen-256color
 
 shell:
-  program: /usr/local/bin/zsh
+  program: /usr/bin/env
   args:
+    - zsh
     - --login
 
