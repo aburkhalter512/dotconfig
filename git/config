@@ -1,5 +1,6 @@
 [core]
 	editor = nvim
+	commentchar = ";"
 [log]
     date = iso
 [format]
@@ -9,5 +10,7 @@
     diff = false
     log = false
 [user]
-	email = aburkhalter512@gmail.com
+	email = adam.burkhalter@rokt.com
 	name = Adam Burkhalter
+[url "ssh://git@github.com"]
+	insteadOf = https://github.com

@@ -20,6 +20,16 @@
             "trace.server": "verbose",
             "initializationOptions": {
             }
+        },
+        "csharp-ls": {
+          "command": "csharp-ls",
+          "filetypes": ["cs"],
+          "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
+        },
+        "helm": {
+            "command": "$HOME/.local/share/nvim/mason/bin/helm_ls",
+            "args": ["serve"],
+            "filetypes": ["helm"]
         }
     }
 }

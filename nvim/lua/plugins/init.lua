@@ -6,15 +6,17 @@ Plug.begin()
 Plug 'tomasiser/vim-code-dark'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
--- Plug 'vim-airline/vim-airline'
 
 -- Editor
+Plug 'williamboman/mason.nvim'
 Plug 'feline-nvim/feline.nvim'
 Plug 'nanozuki/tabby.nvim'
 Plug 'airblade/vim-gitgutter'
--- Plug 'preservim/nerdtree'
 Plug 'nvim-tree/nvim-tree.lua'
+Plug 'nvim-treesitter/nvim-treesitter'
 
+-- Helm
+Plug 'towolf/vim-helm'
 
 -- Code Search
 Plug 'kien/ctrlp.vim'
@@ -34,6 +36,10 @@ Plug 'Olical/conjure'
 Plug 'tpope/vim-dispatch'
 Plug 'clojure-vim/vim-jack-in'
 Plug 'radenling/vim-dispatch-neovim'
+
+-- C#
+-- Plug 'OmniSharp/omnisharp-vim'
+-- omnisharp is out of date. Recommended to use https://github.com/razzmatazz/csharp-language-server
 
 Plug.ends()
 

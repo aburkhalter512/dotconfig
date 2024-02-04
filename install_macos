@@ -23,6 +23,9 @@ brew install guumaster/tap/hostctl
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
 
+# ripgrep
+brew install rg
+
 # install common linux settings
 self_dir=${0:a:h}
 $self_dir/install_linux_common

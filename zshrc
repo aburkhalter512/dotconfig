@@ -87,6 +87,12 @@ git-purge-tags () {
     done
 }
 
+git-clone-with-ssh () {
+    GIT_SSH_COMMAND="ssh -i $1 -o IdentitiesOnly=yes" git clone git@github.com:$2
+}
+
+
+
 ################################################################################
 # aws
 #
@@ -104,3 +110,7 @@ function tmux-start() {
     fi
 }
 
+################################################################################
+# misc
+#
+echoerr() { printf "%s\n" "$*" >&2; }

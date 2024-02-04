@@ -61,3 +61,5 @@ import('nvim-tree').setup({
         width = 50,
     },
 })
+import('editor/treesitter')
+import('editor/mason')
