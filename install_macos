@@ -26,6 +26,9 @@ brew install font-hack-nerd-font
 # ripgrep
 brew install rg
 
+# nix
+sh <(curl -L https://nixos.org/nix/install)
+
 # install common linux settings
 self_dir=${0:a:h}
 $self_dir/install_linux_common

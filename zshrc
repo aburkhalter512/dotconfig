@@ -111,6 +111,12 @@ function tmux-start() {
 }
 
 ################################################################################
+# nix
+#
+# https://github.com/NixOS/nix/issues/3616#issuecomment-1655785404
+[[ ! $(command -v nix) && -e "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh" ]] && source "/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh"
+
+################################################################################
 # misc
 #
 echoerr() { printf "%s\n" "$*" >&2; }
